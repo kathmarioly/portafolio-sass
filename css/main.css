@@ -3,11 +3,6 @@
   margin: 0;
   padding: 0; }
 
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0px auto; }
-
 .templateRow, .row:before, .row:after {
   content: "";
   display: table; }
