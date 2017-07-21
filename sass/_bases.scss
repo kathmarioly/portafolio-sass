@@ -1,6 +1,19 @@
-*{
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+.red{
+	background-color: transparent !important;
+}
+nav{
+	background-color: transparent;
+	position: absolute;
+	padding: 0, 30px;
+	top: 0px;
+	z-index: 1500;
+	border: transparent;
+}
+.carousel .carousel-item>img {
+	width: 100%;
+	margin-top: -150px;
+	z-index: -70;
+	position: fixed;
+	left: 0;
 }
 
