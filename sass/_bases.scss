@@ -8,7 +8,20 @@ nav{
 	top: 0px;
 	z-index: 1500;
 	border: transparent;
+
 }
+.brand-logo{
+	margin-left: 30px;
+}
+
+.dropdown-content li > a {
+	font-size: 11px;
+	color: #000b0a;
+	display: block;
+	line-height: 22px;
+	padding: 12px 5px;;
+}
+
 .carousel .carousel-item>img {
 	width: 100%;
 	margin-top: -150px;
