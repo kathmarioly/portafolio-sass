@@ -1,5 +1,25 @@
-@mixin excel(){
-	color: $color_text_p;
-	text-align: center;
-	line-height: 30px;
+@mixin texto-titulos(){
+	font-family: "Roboto","Helvetica","Arial",sans-serif;
+	font-size: 67.2px;
+	line-height: 77.28px;
+	margin: 0 0 20px;
 }
+
+@mixin container-fondo(){
+	margin: -50px 20px 5px 33px;
+	z-index: 1111111;
+	
+	padding: 60px 11px 10px;
+	background-color: #fff;
+	width: 95%;
+	text-align: center;
+	border-radius: 20px solid;
+	
+	h6{
+		font-family: "Roboto","Helvetica","Arial",sans-serif;
+		font-weight: 300;
+		font-size: 23px;
+		color: #999;
+	}
+}
+

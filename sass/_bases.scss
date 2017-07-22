@@ -1,32 +1,78 @@
-.red{
-	background-color: transparent !important;
-}
+body{
+	background-color: $background-fondo;
+} 
+
+
 nav{
 	background-color: transparent;
-	position: fixed;
-	padding: 0, 30px;
+	position: absolute;
 	top: 0px;
-	z-index: 1500;
+	z-index: 1000;
 	border: transparent;
+	padding: 0 40px;
+	box-shadow:none;
 
-}
-.brand-logo{
-	margin-left: 30px;
-}
-
-.dropdown-content li > a {
-	font-size: 11px;
-	color: #000b0a;
-	display: block;
-	line-height: 22px;
-	padding: 12px 5px;;
+	.brand-logo{
+		font-size: 20px
+	}
+	ul{
+		a{
+			font-size: 10px;
+		}
+	}
+	.btn{
+		font-size: 10px;
+		background-color: $color_rosado;
+	}
+	.dropdown-content li > a {
+		font-size: 10px;
+		color: #000b0a;
+		display: block;
+		line-height: 12px;
+		padding: 12px 3px;;
+	}
 }
 
 .carousel .carousel-item>img {
 	width: 100%;
 	margin-top: -150px;
-	z-index: -70;
-	position: fixed;
+	z-index: -111;
 	left: 0;
 }
+.container{
+	@include container-fondo();
+	p{
+		color: $background-fondo;
+	}
 
+}
+
+
+.who-are{
+	background-image: url("../img/img_city.jpg");
+	color: #999;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+	right: 0px;
+	left: 0px;
+	padding: 30px;
+	h1{
+		font-family: $body_font;
+		color: $color_text_titulo;
+		text-align: left;
+
+	}
+	p{
+		color: $color_text_titulo;
+		text-align: left;
+		font-size: 18px;
+
+	}
+	img{
+		width: 100%;
+		height: auto;
+	}
+}
