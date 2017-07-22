@@ -6777,9 +6777,9 @@ body {
 
 nav {
   background-color: transparent;
-  position: absolute;
-  top: 0px;
-  z-index: 1000;
+  position: fixed;
+  top: 10px;
+  z-index: 2222;
   border: transparent;
   padding: 0 40px;
   box-shadow: none; }
@@ -6800,7 +6800,6 @@ nav {
 .carousel .carousel-item > img {
   width: 100%;
   margin-top: -150px;
-  z-index: -111;
   left: 0; }
 
 .container {
@@ -6840,5 +6839,7 @@ nav {
   .who-are img {
     width: 100%;
     height: auto; }
+  .who-are iframe {
+    border: 1px solid white; }
 
 /*# sourceMappingURL=main.css.map */
