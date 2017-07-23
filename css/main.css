@@ -6842,8 +6842,17 @@ nav {
   .who-are iframe {
     border: 1px solid white; }
 
-.portafolio img {
+.products .container {
+  background-color: whitesmoke; }
+.products img {
   width: 95%; }
+.products .im-uno {
+  background-color: white; }
+
+.portafolio {
+  text-align: center; }
+  .portafolio img {
+    width: 95%; }
 
 .Meet-our-team img {
   width: 120%; }
@@ -6856,7 +6865,9 @@ nav {
   text-align: center; }
 
 .choose-a-plan .container {
-  background-color: whitesmoke; }
+  background-color: whitesmoke;
+  padding-top: 101px;
+  text-align: center; }
 .choose-a-plan span {
   color: black; }
 .choose-a-plan .btn, .choose-a-plan .btn-large {
@@ -6865,5 +6876,19 @@ nav {
   color: #989998; }
 .choose-a-plan .uno {
   background-color: #fff; }
+
+.clientes img {
+  width: 40%; }
+.clientes p, .clientes h6 {
+  padding: 0px 38px 1px 29px; }
+.clientes h6 {
+  color: black; }
+
+.suscribete h2, .suscribete h5 {
+  color: white; }
+.suscribete .container {
+  background-image: url("../img/about.jpg");
+  max-width: 100%;
+  width: 95%; }
 
 /*# sourceMappingURL=main.css.map */

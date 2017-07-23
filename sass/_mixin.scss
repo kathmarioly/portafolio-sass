@@ -108,9 +108,11 @@
 	}
 }
 
-@mixin seccio-siete(){
+@mixin seccion-siete(){
 	.container{
 		background-color: whitesmoke;
+		padding-top: 101px;
+		text-align:center;
 	}
 	span{
 		color: black;
@@ -119,7 +121,7 @@
 		background-color: $color_rosado;
 	}
 	hr{
-		color: $background-fondo;
+		color: #989998;;
 
 	}
 }

@@ -25,9 +25,26 @@ nav{
 	@include we-now();
 }
 
+//PRODUCTOS
+.products{
+	.container{
+		background-color: whitesmoke;
+
+	}
+	img{
+		width:95%;
+	}
+	.im-uno{
+		background-color: white;
+
+	}
+}
+
 //PORTAFOLIO
 .portafolio{
+	text-align: center;
 	img{
+
 		width: 95%;
 	}
 }
@@ -40,10 +57,36 @@ nav{
 
 
 .choose-a-plan{
-	@include seccio-siete();
+	@include seccion-siete();
 	.uno{
 		background-color: $color_text_titulo;
 
 	}
+}
 
+
+.clientes{
+	img{
+		width: 40%;
+	}
+	p, h6{
+
+		padding:0px 38px 1px 29px;
+	}
+
+	h6{
+		color: black;
+	}
+}
+
+.suscribete{
+
+	h2, h5{
+		color: white;
+	}
+	.container{
+		background-image: url("../img/about.jpg");
+		max-width: 100%;
+		width: 95%;
+	}
 }
