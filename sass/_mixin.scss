@@ -23,6 +23,74 @@
 	}
 }
 
+
+//Navbar
+@mixin menu(){
+	background-color: transparent;
+	position: fixed;
+	top: 10px;
+	z-index: 2222;
+	border: transparent;
+	padding: 0 40px;
+	box-shadow:none;
+
+	.brand-logo{
+		font-size: 20px
+	}
+	ul{
+		a{
+			font-size: 10px;
+		}
+	}
+	.btn{
+		font-size: 10px;
+		background-color: $color_rosado;
+	}
+	.dropdown-content li > a {
+		font-size: 10px;
+		color: #000b0a;
+		display: block;
+		line-height: 12px;
+		padding: 12px 3px;;
+	}
+}
+
+
+//HOW ARE WE NOW
+@mixin we-now(){
+	background-image: url("../img/img_city.jpg");
+	color: #999;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+	right: 0px;
+	left: 0px;
+	padding: 30px;
+	h1{
+		font-family: $body_font;
+		color: $color_text_titulo;
+		text-align: left;
+
+	}
+	p{
+		color: $color_text_titulo;
+		text-align: left;
+		font-size: 18px;
+
+	}
+	img{
+		width: 100%;
+		height: auto;
+	}
+
+	iframe{
+		border: 1px solid white;
+	}
+}
+
+//MEET OUR TEAM
 @mixin seccion-seis(){
 	img{
 		width: 120%;
@@ -33,9 +101,25 @@
 	}
 	p, h5, h6, .iconos{
 		text-align:left;
-		padding: 0px 67px 0px 34px;
+		padding:0px 0px 1px 29px;
 	}
 	.subtitulo{
 		text-align: center;
+	}
+}
+
+@mixin seccio-siete(){
+	.container{
+		background-color: whitesmoke;
+	}
+	span{
+		color: black;
+	}
+	.btn{
+		background-color: $color_rosado;
+	}
+	hr{
+		color: $background-fondo;
+
 	}
 }

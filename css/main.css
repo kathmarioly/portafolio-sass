@@ -6842,14 +6842,28 @@ nav {
   .who-are iframe {
     border: 1px solid white; }
 
+.portafolio img {
+  width: 95%; }
+
 .Meet-our-team img {
   width: 120%; }
 .Meet-our-team ul > li {
   display: inline-block; }
 .Meet-our-team p, .Meet-our-team h5, .Meet-our-team h6, .Meet-our-team .iconos {
   text-align: left;
-  padding: 0px 67px 0px 34px; }
+  padding: 0px 0px 1px 29px; }
 .Meet-our-team .subtitulo {
   text-align: center; }
+
+.choose-a-plan .container {
+  background-color: whitesmoke; }
+.choose-a-plan span {
+  color: black; }
+.choose-a-plan .btn, .choose-a-plan .btn-large {
+  background-color: #E91E63; }
+.choose-a-plan hr {
+  color: #989998; }
+.choose-a-plan .uno {
+  background-color: #fff; }
 
 /*# sourceMappingURL=main.css.map */
