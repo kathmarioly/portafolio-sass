@@ -23,3 +23,19 @@
 	}
 }
 
+@mixin seccion-seis(){
+	img{
+		width: 120%;
+	}
+	ul>li{
+		display: inline-block;
+
+	}
+	p, h5, h6, .iconos{
+		text-align:left;
+		padding: 0px 67px 0px 34px;
+	}
+	.subtitulo{
+		text-align: center;
+	}
+}

@@ -6842,4 +6842,14 @@ nav {
   .who-are iframe {
     border: 1px solid white; }
 
+.Meet-our-team img {
+  width: 120%; }
+.Meet-our-team ul > li {
+  display: inline-block; }
+.Meet-our-team p, .Meet-our-team h5, .Meet-our-team h6, .Meet-our-team .iconos {
+  text-align: left;
+  padding: 0px 67px 0px 34px; }
+.Meet-our-team .subtitulo {
+  text-align: center; }
+
 /*# sourceMappingURL=main.css.map */
