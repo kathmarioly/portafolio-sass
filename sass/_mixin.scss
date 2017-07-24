@@ -93,7 +93,8 @@
 //MEET OUR TEAM
 @mixin seccion-seis(){
 	img{
-		width: 120%;
+		width: 110%;
+		border-radius: $border-radius;
 	}
 	ul>li{
 		display: inline-block;
@@ -102,12 +103,37 @@
 	p, h5, h6, .iconos{
 		text-align:left;
 		padding:0px 0px 1px 29px;
+		font-size: 18px;
+	}
+	h5{
+		font-family: "Roboto Slab","Times New Roman",serif;
+		font-weight: 800;
+		color: #3c4858;
+		font-size: 150%;	
+	}
+	h6{
+		font-weight: 400;
+		color: #777;
+		font-size: 90%
+	}
+	p{
+		color: #999;
+		font-size: 90%;
+		font-weight: 400;
 	}
 	.subtitulo{
 		text-align: center;
 	}
+	.container .row {
+		margin-left: 1.25rem;
+		margin-right: -0.75rem;
+	}
+	i{
+		margin: 0px 10px 0px 5px;
+	}
 }
 
+//choose-a-plan
 @mixin seccion-siete(){
 	.container{
 		background-color: whitesmoke;
@@ -123,5 +149,21 @@
 	hr{
 		color: #989998;;
 
+	}
+}
+
+//clientes
+@mixin seccion-ocho(){
+	img{
+		width: 40%;
+		border-radius: 100px;;
+	}
+	p, h6{
+
+		padding:0px 38px 1px 29px;
+	}
+
+	h6{
+		color: black;
 	}
 }

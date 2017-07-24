@@ -6845,24 +6845,54 @@ nav {
 .products .container {
   background-color: whitesmoke; }
 .products img {
-  width: 95%; }
+  width: 95%;
+  border-radius: 10px 10px 10px 10px; }
 .products .im-uno {
   background-color: white; }
 
 .portafolio {
   text-align: center; }
   .portafolio img {
+    border-radius: 10px 10px 10px 10px;
     width: 95%; }
 
 .Meet-our-team img {
-  width: 120%; }
+  width: 110%;
+  border-radius: 10px 10px 10px 10px; }
 .Meet-our-team ul > li {
   display: inline-block; }
 .Meet-our-team p, .Meet-our-team h5, .Meet-our-team h6, .Meet-our-team .iconos {
   text-align: left;
-  padding: 0px 0px 1px 29px; }
+  padding: 0px 0px 1px 29px;
+  font-size: 18px; }
+.Meet-our-team h5 {
+  font-family: "Roboto Slab","Times New Roman",serif;
+  font-weight: 800;
+  color: #3c4858;
+  font-size: 150%; }
+.Meet-our-team h6 {
+  font-weight: 400;
+  color: #777;
+  font-size: 90%; }
+.Meet-our-team p {
+  color: #999;
+  font-size: 90%;
+  font-weight: 400; }
 .Meet-our-team .subtitulo {
   text-align: center; }
+.Meet-our-team .container .row {
+  margin-left: 1.25rem;
+  margin-right: -0.75rem; }
+.Meet-our-team i {
+  margin: 0px 10px 0px 5px; }
+.Meet-our-team .fa-facebook {
+  color: #333399; }
+.Meet-our-team .fa-twitter {
+  color: #80dfff; }
+.Meet-our-team .fa-linkedin {
+  color: #6666ff; }
+.Meet-our-team .fa-google-plus {
+  color: #ff3333; }
 
 .choose-a-plan .container {
   background-color: whitesmoke;
@@ -6878,7 +6908,8 @@ nav {
   background-color: #fff; }
 
 .clientes img {
-  width: 40%; }
+  width: 40%;
+  border-radius: 100px; }
 .clientes p, .clientes h6 {
   padding: 0px 38px 1px 29px; }
 .clientes h6 {
@@ -6890,5 +6921,10 @@ nav {
   background-image: url("../img/about.jpg");
   max-width: 100%;
   width: 95%; }
+.suscribete .cont-subs {
+  text-align: center;
+  background-color: white;
+  position: relative;
+  width: 50%; }
 
 /*# sourceMappingURL=main.css.map */

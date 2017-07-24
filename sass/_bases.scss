@@ -33,6 +33,7 @@ nav{
 	}
 	img{
 		width:95%;
+		border-radius: $border-radius;
 	}
 	.im-uno{
 		background-color: white;
@@ -44,7 +45,7 @@ nav{
 .portafolio{
 	text-align: center;
 	img{
-
+		border-radius: $border-radius;
 		width: 95%;
 	}
 }
@@ -53,6 +54,18 @@ nav{
 //SECCION SEIS
 .Meet-our-team{
 	@include seccion-seis();
+	.fa-facebook{
+		color: $facebook;
+	}
+	.fa-twitter{
+		color: $twtter;
+	}
+	.fa-linkedin{
+		color: $linkedin;
+	}
+	.fa-google-plus{
+		color: $google;
+	}
 }
 
 
@@ -64,19 +77,9 @@ nav{
 	}
 }
 
-
+//seccion ocho.
 .clientes{
-	img{
-		width: 40%;
-	}
-	p, h6{
-
-		padding:0px 38px 1px 29px;
-	}
-
-	h6{
-		color: black;
-	}
+	@include seccion-ocho()
 }
 
 .suscribete{
@@ -88,5 +91,11 @@ nav{
 		background-image: url("../img/about.jpg");
 		max-width: 100%;
 		width: 95%;
+	}
+	.cont-subs{
+		text-align:center;
+		background-color: white;
+		position: relative;
+		width: 50%;
 	}
 }
