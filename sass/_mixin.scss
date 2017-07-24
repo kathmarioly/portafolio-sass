@@ -146,9 +146,34 @@
 	.btn{
 		background-color: $color_rosado;
 	}
-	hr{
-		color: #989998;;
+	h6{
+		font-weight: 800;
+		color: #3c4858;
+		font-size: 100%;
+	}
+	h2{
+		font-family: "Roboto Slab","Times New Roman",serif;
+		font-weight: 900;
+		color: #3c4858;
+		font-size: 200%;
+		text-align: left;
+	}
 
+	p{
+		font-weight: 400;
+		color: #777;
+		font-size: 90%
+	}
+	.container .row {
+		margin-left: 1.25rem;
+		margin-right: -0.75rem;
+	}
+	.row .col.l4 {
+		width: 31.333%;
+		margin-left: auto;
+		left: auto;
+		right: auto;
+		margin-right: 124px;
 	}
 }
 

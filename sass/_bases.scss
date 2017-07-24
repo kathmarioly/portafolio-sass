@@ -68,13 +68,31 @@ nav{
 	}
 }
 
-
+//SECCION SEVEN
 .choose-a-plan{
 	@include seccion-siete();
+	#textoH2{
+		text-align: left;
+	}
+
 	.uno{
 		background-color: $color_text_titulo;
-
+		padding: 15px 25px 15px 50px;
+		width: 30%;
+		margin-left: 3%;
+		margin-right: 3%;
+		padding-top: 5%;
+		padding-bottom: 5%;
 	}
+	.dos{
+		padding: 15px 25px 15px 50px;
+		width: 30%;
+		margin-left: 3%;
+		margin-right: 3%;
+		padding-top: 5%;
+		padding-bottom: 5%;
+	}
+
 }
 
 //seccion ocho.

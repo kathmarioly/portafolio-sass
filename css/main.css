@@ -6902,10 +6902,46 @@ nav {
   color: black; }
 .choose-a-plan .btn, .choose-a-plan .btn-large {
   background-color: #E91E63; }
-.choose-a-plan hr {
-  color: #989998; }
+.choose-a-plan h6 {
+  font-weight: 800;
+  color: #3c4858;
+  font-size: 100%; }
+.choose-a-plan h2 {
+  font-family: "Roboto Slab","Times New Roman",serif;
+  font-weight: 900;
+  color: #3c4858;
+  font-size: 200%;
+  text-align: left; }
+.choose-a-plan p {
+  font-weight: 400;
+  color: #777;
+  font-size: 90%; }
+.choose-a-plan .container .row {
+  margin-left: 1.25rem;
+  margin-right: -0.75rem; }
+.choose-a-plan .row .col.l4 {
+  width: 31.333%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
+  margin-right: 124px; }
+.choose-a-plan #textoH2 {
+  text-align: left; }
 .choose-a-plan .uno {
-  background-color: #fff; }
+  background-color: #fff;
+  padding: 15px 25px 15px 50px;
+  width: 30%;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-top: 5%;
+  padding-bottom: 5%; }
+.choose-a-plan .dos {
+  padding: 15px 25px 15px 50px;
+  width: 30%;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-top: 5%;
+  padding-bottom: 5%; }
 
 .clientes img {
   width: 40%;
