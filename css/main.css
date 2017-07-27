@@ -7009,11 +7009,17 @@ nav {
 .suscribete .container {
   background-image: url("../img/about.jpg");
   max-width: 100%;
+  background-size: cover;
   width: 95%; }
-.suscribete .cont-subs {
-  text-align: center;
-  background-color: white;
-  position: relative;
-  width: 50%; }
+
+.blog img {
+  width: 10%; }
+.blog img {
+  width: 40%;
+  border-radius: 100px; }
+.blog p, .blog h6 {
+  padding: 0px 38px 1px 29px; }
+.blog h6 {
+  color: black; }
 
 /*# sourceMappingURL=main.css.map */

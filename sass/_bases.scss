@@ -125,12 +125,18 @@ nav{
 	.container{
 		background-image: url("../img/about.jpg");
 		max-width: 100%;
+		background-size: cover;
 		width: 95%;
+		
 	}
-	.cont-subs{
-		text-align:center;
-		background-color: white;
-		position: relative;
-		width: 50%;
-	}
+	
+	
 }
+
+.blog{
+	img{
+		width: 10%;
+	}
+	@include seccion-ocho()
+}
+
