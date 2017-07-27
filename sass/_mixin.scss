@@ -89,7 +89,72 @@
 		border: 1px solid white;
 	}
 }
+//PRODUCT
+@mixin seccion-cuatro(){
+	.container{
+		background-color:whitesmoke;
+	}
+	.row .col.l3 {
+		width: 20%;
+		margin-left: 2%;
+		left: auto;
+		right: auto;
+	}
+	img{
+		width: 100%;
+		margin: 0 auto;
+		padding: 0;
+		text-align: center;
+		margin-top: -40px;
+		border-radius: $border-radius;
 
+	}
+	img:hover{
+		margin-top: -80px;
+	}
+
+	
+	h5{
+		color: $background-fondo;
+		font-size: 17.5px;
+		font-weight: 400;
+		padding-bottom: 3%;
+	}		
+
+	div.imaProduct{
+		background-color: #fff;
+		border-radius: $border-radius;
+		max-width: 260px;
+		margin: 60px 30px 10px;
+		h6{
+			color: $color_rosado;
+			font-weight: 800;
+			font-size: 80%;
+		}
+		h4{
+			color: #3c4858;
+			font-weight: 700;
+			font-size: 128%;
+		}
+		p{
+			color: #999;
+			font-weight: 400;
+			font-size: 80%;
+			line-height: 25.2px;
+
+		}
+		h4.precio{
+			color: #3c4858;
+			padding-bottom: 10%;
+			font-weight: 400;
+			i{
+				margin-left: 40%;
+				font-size: 100%;
+			}
+
+		}
+	}
+}
 //MEET OUR TEAM
 @mixin seccion-seis(){
 	img{

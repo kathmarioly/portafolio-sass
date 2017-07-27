@@ -6802,6 +6802,9 @@ nav {
   margin-top: -150px;
   left: 0; }
 
+.slides .btn, .slides .btn-large {
+  background-color: #E91E63; }
+
 .container {
   margin: -50px 20px 5px 33px;
   z-index: 1111111;
@@ -6895,8 +6898,16 @@ nav {
 .portafolio {
   text-align: center; }
   .portafolio img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px 10px 10px 10px;
     width: 95%; }
+  .portafolio .imagenes-por {
+    padding: 10px 5px 10px 5px; }
+  .portafolio .container .row {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem; }
+  .portafolio img:hover {
+    opacity: .5; }
 
 .Meet-our-team img {
   width: 110%;
