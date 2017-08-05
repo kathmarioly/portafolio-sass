@@ -221,7 +221,24 @@ nav{
 
 //FOOTER:
 .pie{
+	.container .row {
+		margin-left: 1.25rem;
+		margin-right: -0.75rem;
+	}
 	.container{
 		background-color: #323437;
 	}
+	
+	ul{
+		display: inline-flex;
+		padding-right: 20px;;
+		margin-left: 12px;;
+	}
+	a{
+		text-align:center;
+	}
+	#menu{
+		margin-right: 3px;;
+	}
+	
 }
