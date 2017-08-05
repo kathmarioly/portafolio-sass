@@ -6951,6 +6951,12 @@ nav {
   background-color: whitesmoke;
   padding-top: 101px;
   text-align: center; }
+.choose-a-plan .choose-a-plan .row .col.l4 {
+  width: 31.333%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
+  margin-right: 91px; }
 .choose-a-plan span {
   color: black; }
 .choose-a-plan .btn, .choose-a-plan .btn-large {
@@ -6983,7 +6989,7 @@ nav {
 .choose-a-plan .uno {
   background-color: #fff;
   padding: 15px 25px 15px 50px;
-  width: 30%;
+  width: 30px;
   margin-left: 3%;
   margin-right: 3%;
   padding-top: 5%;
